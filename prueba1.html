@@ -11,24 +11,33 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </head>
   <body>
-     <div class="title">
-      <h2>Prueba 1</h2>
-    </div>
      <div class="abs-center">
+      <div>
+        <br>
+      <p>Bienvenid@s concursant@s</p>
+      <br>
+      <p>A continuación tenéis que responder una serie de preguntas sobre mi vida,
+      <br> ¡a ver cuán bien me conocéis!</p>
+      <br>
+      <p>Si la respuesta es correcta, recibiréis la indicación de la ubicación de la siguiente pregunta.</p>
+      </div>
+     </div>
+     <div class="title">
+        <h2>Prueba 1</h2>
+        <div class="abs-center">
         <form>
            <div class="form-control">
            <label for="texto">¿El helado tiene que ser de....?</label>
            <br/>
            <input type="text" id="respuesta1" name="respuesta1" value="" maxlength="9"><label>&nbsp;&nbsp;&nbsp;&nbsp;9 letras</label><br><br>
            <button class="btn btn-info" type="button" onclick="verificarRespuestas()">Verificar </button>
- 
+           </div>
      <div class="abs-center">
       <div id="respuestas-correctas" style="display: none;">
          <br/>
       <h4>¡Correcto! &#x1F60B; La siguiente prueba está en <br> el algarrobo de la entrada a la derecha</h4>
       </div>
-     
-  </div>
+     </div>
   <div id="mensaje" style="display: none;">
     <br>
     <p>Incorrecto, inténtalo de nuevo</p></div>
