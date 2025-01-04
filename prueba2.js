@@ -7,7 +7,8 @@ const respuestasCorrectas = ["BICI", "NADAR", "SENDERISMO"]; // Aquí puedes agr
       if (respuestasCorrectas.includes(respuesta1) && respuestasCorrectas.includes(respuesta2) && respuestasCorrectas.includes(respuesta3)) {
         document.getElementById("respuestas-correctas").style.display = "block";
         document.getElementById("mensaje").style.display = "none";
-        //        document.getElementById("imagen").src = "img/harry.jpeg"; // Aquí debes colocar la URL de tu imagen
+        document.getElementById("mensaje").style.display = "none";
+        document.getElementById("sopa").style.display = "none";
       } else {
         document.getElementById("mensaje").style.display = "block";
       }
