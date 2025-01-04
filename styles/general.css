@@ -1,4 +1,8 @@
 body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -32,6 +36,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .form {
@@ -40,4 +45,8 @@ a {
 
 .title {
   margin-top: 5%;
+}
+
+#formjero {
+margin-top: 23px;
 }

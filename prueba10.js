@@ -8,7 +8,7 @@ const respuestasCorrectas = ["....", ".", "-.",".-", ".-."]; // Aquí puedes agr
 
       if (respuestasCorrectas.includes(respuesta1) && respuestasCorrectas.includes(respuesta2) && respuestasCorrectas.includes(respuesta3) && respuestasCorrectas.includes(respuesta4) && respuestasCorrectas.includes(respuesta5)){
         document.getElementById("respuestas-correctas").style.display = "block";
-        document.getElementById("imagen").src = "img/mayte.jpeg"; // Aquí debes colocar la URL de tu imagen
+        document.getElementById("imagen").src = "img/mayte.jpg"; // Aquí debes colocar la URL de tu imagen
         document.getElementById("mensaje").style.display = "none";
         document.getElementById("morse").style.display = "none";
         document.getElementById("final1").style.display = "none";
