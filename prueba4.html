@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Prueba 4</title>
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/general.css"/>
+      <script type="text/javascript" src="prueba4.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+     <div class="title">
+      <h2>Prueba 4</h2>
+    </div>
+     <div class="abs-center">
+        <form>
+           <div class="form-control">
+           <label for="texto">¿A qué país me fui con una ONG?</label>
+           <br/>
+           <input type="text" id="respuesta1" name="respuesta1" value="" maxlength="9"><label>&nbsp;&nbsp;&nbsp;&nbsp;9 letras</label><br><br>
+           <button class="btn btn-info" type="button" onclick="verificarRespuestas()">Verificar </button>
+ 
+     <div class="abs-center">
+      <div id="respuestas-correctas" style="display: none;">
+         <br/>
+      <h4>¡Correcto! &#x1F1EC;&#x1F1F9; <br>La siguiente prueba está en <br> el olivo cerca de la entrada</h4>
+      </div>
+     
+  </div>
+  <div id="mensaje" style="display: none;">
+    <br>
+    <p>Incorrecto, inténtalo de nuevo</p></div>
+</div>
+  </body>
+</html>

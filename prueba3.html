@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Prueba 3</title>
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/general.css"/>
+      <script type="text/javascript" src="prueba3.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      </script>
+  </head>
+  <body>
+ 
+    <div class="title">
+      <h2>Prueba 3</h2>
+      <br/>
+      <div class="abs-center">
+      <form>
+        <div class="form-control">
+        <label for="texto">¿Cuántos veranos he ido de viaje a aprender inglés?</b></label>
+        <br/>
+        <input type="text" id="respuesta1" name="respuesta1" value="" maxlength="5"><label>&nbsp;&nbsp;&nbsp;&nbsp;5 letras</label><br><br>
+        <input type="text" id="respuesta2" name="respuesta2" value="" maxlength="11"><label>&nbsp;&nbsp;&nbsp;&nbsp;11 letras</label><br><br>
+        <input type="text" id="respuesta3" name="respuesta3" value="" maxlength="8"><label>&nbsp;&nbsp;&nbsp;&nbsp;8 letras</label><br><br>
+        <button class="btn btn-info" type="button" onclick="verificarRespuestas()">Verificar </button>
+        </div>
+        <div>
+          <br>
+          <button class="btn btn-info" type="button" onclick="pistas()">Pistas:</button>
+          <div id="pistas" style="display: none;">
+          <img id="imagen" src="img/pais.png" alt="Pista País">
+          <br>
+          <img id="imagen2" src="img/ciudades.png" alt="Pista Ciudades">
+          </div>
+        </div>
+      </form>
+      
+      </div>
+      
+    <div class="abs-center">
+      <div id="respuestas-correctas" style="display: none;">
+        <br/>
+      <h4>¡Correcto! &#x1F1EC;&#x1F1E7;<br>
+        La siguiente prueba está en <br>el final de la rampa que baja</h4>
+     </div>
+      <div id="mensaje" style="display: none;">
+        <br>
+        <p>Incorrecto, inténtalo de nuevo</p></div>
+    </div>
+    <div>
+    
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Prueba 9 Primaria 456</title>
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/general.css"/>
+      <script type="text/javascript" src="prueba9.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+     <div class="title">
+      <h1>Prueba 9</h1>
+      </div>     
+     <div class="abs-center">
+        <form>
+           <div class="form-control">
+           <label for="texto">Las protagonistas del libro <b>Lo mejor de cada una</b> pasan el verano en un campamento lejos de sus casa. ¿Cómo se llama el castillo dónde vivirán una emocionante aventura?</label>
+           <p><b>Pistas:</b></p>
+           <p>Primera palabra: Imagina que en vez de hablar castellano, lo hacemos en inglés, como escribirías Señorita</p>
+           <p>Segunda palabra: Ordena las siguentes letras para obtener la respuesta: LEWLS</p>
+           <br/>
+           <input type="text" id="respuesta1" name="respuesta1" value="" maxlength="4"><label>&nbsp;&nbsp;&nbsp;&nbsp;4 letras</label><br><br>
+           <input type="text" id="respuesta2" name="respuesta2" value="" maxlength="5"><label>&nbsp;&nbsp;&nbsp;&nbsp;5 letras</label><br><br>
+           <button class="btn btn-info" type="button" onclick="verificarRespuestas()">Verificar </button>
+ 
+     <div class="abs-center">
+      <div id="respuestas-correctas" style="display: none;">
+         <br/>
+      <h4>¡Te felicito! La letra que estás buscando es la: T</h4>
+      <img id="imagen" src="img/lomejor.jpeg" alt="Lo mejor">
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
