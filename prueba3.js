@@ -6,7 +6,6 @@ const respuestasCorrectas = ["MALTA", "BOURNEMOUTH", "BRIGHTON"]; // Aquí puede
 
        if (respuestasCorrectas.includes(respuesta1) && respuestasCorrectas.includes(respuesta2) && respuestasCorrectas.includes(respuesta3)) {
         document.getElementById("respuestas-correctas").style.display = "block";
-        document.getElementById("imagen").src = "img/forasteros.jpeg"; // Aquí debes colocar la URL de tu imagen
         document.getElementById("mensaje").style.display = "none";
         document.getElementById("pistas").style.display = "none";
         //        document.getElementById("imagen").src = "img/harry.jpeg"; // Aquí debes colocar la URL de tu imagen
