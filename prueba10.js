@@ -12,7 +12,6 @@ const respuestasCorrectas = ["....", ".", "-.",".-", ".-."]; // Aquí puedes agr
         document.getElementById("mensaje").style.display = "none";
         document.getElementById("morse").style.display = "none";
         document.getElementById("final1").style.display = "none";
-        document.getElementById("final2").style.display = "none";
         document.getElementById("final").style.display = "none";
       } else {
         document.getElementById("mensaje").style.display = "block";
