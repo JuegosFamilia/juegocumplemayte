@@ -6,6 +6,7 @@ const respuestasCorrectas = ["AMANECER", "VALIENTE"];
        if (respuestasCorrectas.includes(respuesta1) && respuestasCorrectas.includes(respuesta2)) {
         document.getElementById("respuestas-correctas").style.display = "block";
         document.getElementById("mensaje").style.display = "none";
+        document.getElementById("imagen").src = "img/ertan.jpeg";
       } else {
         document.getElementById("mensaje").style.display = "block";
       }
